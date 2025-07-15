@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: yellow;
+    padding: 0%;
+    margin: 0%;
+}
+h1, h2{
+    text-align: center;
+}
+section{
+    border: 2px solid;
+    border-color: yellow;
+}
+article{
+    margin: 10px;
+    border: 2px solid;
+    border-color: yellow;
+}
+footer{
+    background-color: blue;
+    padding: 0%;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
