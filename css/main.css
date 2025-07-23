@@ -26,3 +26,55 @@ img{
     margin-right: auto;
     width: 50%;
 }
+.green-frame{
+    border: 2px solid;
+    border-color: #2cff05;
+    margin: 5px;
+    color: #2cff05;
+}
+.green-frame:hover{
+    color: black;
+    background-color: #2cff05;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+}
+.blue-frame{
+    border: 2px solid;
+    border-color: #1F51FF;
+    margin: 5px;
+    color: #1F51FF;
+}
+.blue-frame:hover{
+    color: black;
+    background-color: #1F51FF;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+}
+.yellow-frame{
+    border: 2px solid;
+    border-color: yellow;
+    margin: 5px;
+    color: yellow;
+}
+.yellow-frame:hover{
+    color: black;
+    background-color: yellow;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+}
+.red-frame{
+    border: 2px solid;
+    border-color: #FF0C12;
+    margin: 5px;
+    color: #FF0C12;
+}
+.red-frame:hover{
+    color: black;
+    background-color: #FF0C12;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+}
+.color-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
