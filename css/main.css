@@ -78,3 +78,12 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+/* Dynamic article */
+.article {
+    border: 2px solid yellow;
+    margin: 10px;
+}
+.article img {
+    max-width: 100%;
+    height: auto;
+}
