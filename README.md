@@ -2,4 +2,4 @@
 
 ## Making
 
-This project is made in html in vscode with liveserver to test the site.
+This project is made in HTML with CSS and Javascript in vscode with liveserver to test the site.
